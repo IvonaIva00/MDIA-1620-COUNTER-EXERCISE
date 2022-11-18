@@ -7,7 +7,7 @@ export default function Home() {
       <div>{number}</div>
       <button onClick={() => setNumber(number + 1)}>increment</button>
       <button onClick={() => setNumber(number - 1)}>decrement</button>
-      
+       
     </div>
   )
 }
